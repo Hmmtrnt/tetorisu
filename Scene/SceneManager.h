@@ -1,3 +1,4 @@
+// ゲームマネージャー
 #pragma once
 
 //#include "SceneBase.h"
@@ -8,14 +9,11 @@ class SceneManager
 public:
 	SceneManager();
 	virtual ~SceneManager() {}
-	// 初期化
-	void init();
-	// 終了
-	void end();
-	// 毎フレームの処理
-	void update();
-	// 描画
-	void draw();
+	
+	void init();		// 初期化
+	void end();			// 終了
+	void update();		// 毎フレームの処理
+	void draw();		// 描画
 
 private:
 	// シーンベースポインタ
