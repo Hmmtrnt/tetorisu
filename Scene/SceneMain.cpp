@@ -1,4 +1,5 @@
 #include "SceneMain.h"
+#include "SceneResult.h"
 #include "DxLib.h"
 #include "Pad.h"
 
@@ -27,11 +28,16 @@ void SceneMain::end()
 // XVˆ—
 SceneBase* SceneMain::update()
 {
-
+	if (Pad::isTrigger(PAD_INPUT_2))
+	{
+		return (new SceneResult);
+	}
+	return this;
 }
 
 // •`‰æˆ—
 void SceneMain::draw()
 {
 	DrawString(0, 0, "SceneMain", GetColor(255, 255, 255));
+	DrawBox(100, 50, 600, 600, GetColor(255, 255, 255), true);
 }

@@ -25,7 +25,7 @@ void SceneBase::end()
 // XVˆ—
 SceneBase* SceneBase::update()
 {
-
+	return this;
 }
 
 // •`‰æ
