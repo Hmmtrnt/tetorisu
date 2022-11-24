@@ -1,5 +1,6 @@
 #include "SceneMain.h"
 #include "DxLib.h"
+#include "Pad.h"
 
 SceneMain::SceneMain()
 {
@@ -24,7 +25,7 @@ void SceneMain::end()
 }
 
 // XVˆ—
-void SceneMain::update()
+SceneBase* SceneMain::update()
 {
 
 }

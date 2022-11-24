@@ -1,5 +1,6 @@
 #include "SceneResult.h"
 #include "DxLib.h"
+#include "Pad.h"
 
 SceneResult::SceneResult()
 {
@@ -24,7 +25,7 @@ void SceneResult::end()
 }
 
 // XVˆ—
-void SceneResult::update()
+SceneBase* SceneResult::update()
 {
 
 }

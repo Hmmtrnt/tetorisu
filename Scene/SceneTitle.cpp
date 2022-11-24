@@ -1,5 +1,6 @@
 #include "SceneTitle.h"
 #include "DxLib.h"
+#include "Pad.h"
 
 SceneTitle::SceneTitle()
 {
@@ -24,7 +25,7 @@ void SceneTitle::end()
 }
 
 // XVˆ—
-void SceneTitle::update()
+SceneBase* SceneTitle::update()
 {
 
 }

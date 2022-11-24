@@ -23,7 +23,7 @@ void SceneBase::end()
 }
 
 // XVˆ—
-void SceneBase::update()
+SceneBase* SceneBase::update()
 {
 
 }
